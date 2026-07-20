@@ -1,0 +1,40 @@
+# Prueba Técnica - QA Automation
+
+## Descripción
+
+Esta prueba consume la PokéAPI para obtener la cadena evolutiva de Squirtle.
+
+Se realiza lo siguiente:
+
+- Consulta del Pokémon Squirtle.
+- Obtención de la cadena evolutiva.
+- Consulta del peso de cada Pokémon.
+- Ordenamiento alfabético utilizando Bubble Sort (sin usar `Array.sort()`).
+- Validación de respuestas HTTP 200.
+- Impresión del resultado final.
+
+## Tecnologías
+
+- Playwright
+- TypeScript
+- Node.js
+
+## Instalación
+
+```bash
+npm install
+```
+
+## Ejecutar
+
+```bash
+npx playwright test
+```
+
+## Resultado esperado
+
+| Nombre | Peso |
+|---------|------|
+| blastoise | 855 |
+| squirtle | 90 |
+| wartortle | 225 |
